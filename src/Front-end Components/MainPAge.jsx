@@ -6,7 +6,7 @@ export const MainPAge = () => {
     const {id} = useParams();
     useEffect(()=>
     {
-        fetch(`http://localhost:8080/api/content`).then(res => res.json()).then(content => setContent(content))
+        fetch(`https://blog-u-n.herokuapp.com/api/content`).then(res => res.json()).then(content => setContent(content))
     },[id])
   return (
     <div>

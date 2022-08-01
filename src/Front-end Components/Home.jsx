@@ -14,7 +14,7 @@ const Home = () => {
     const [data,setData] = useState([]);
     useEffect(()=>
     {
-        fetch(`http://localhost:8080/api/content`).then(res => res.json()).then(data => setData(data))
+        fetch(`https://blog-u-n.herokuapp.com/api/content`).then(res => res.json()).then(data => setData(data))
 
     },[])
   return (
