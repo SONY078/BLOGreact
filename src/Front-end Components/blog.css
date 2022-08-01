@@ -668,3 +668,25 @@ p
     top: 1827px;
     width: 700px;
 }
+#advertisement
+{
+    background-color: #000000;
+    height: 1140px;
+    width: 100%;
+    position: absolute;
+    top: 2340px;
+}
+#advert
+{
+    border: 3px solid black;
+    height: 350px;
+    width: 670px;
+    position: absolute;
+    top: 1940px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    
+}
