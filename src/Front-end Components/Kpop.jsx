@@ -48,7 +48,19 @@ const Kpop = () => {
             </div>
         ))
         }
-              
+        <h1 className="hover-underline-animation" id='fit-heading'>You can also watch</h1>
+        <h2 id='fit-subheading'>Fitness</h2>
+         <div id="disp">
+         {
+          data.filter((x)=>x.category === 'fitness').map((y)=>(
+          <div id='flex-container'>
+          <div id="row">
+            <h2>{y.title}</h2>
+            <Link to={`/${y.category}/${y.id}`} id='readmore'><img src={y.Image} alt='Taj Mahal' id='tourism-img'/></Link>
+          </div>
+          </div>))
+         }  
+          </div>   
               <div id='advert'>advertisement</div>
     <div id='advertisement'></div>    
            

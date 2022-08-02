@@ -670,11 +670,12 @@ p
 }
 #advertisement
 {
-    background-color: #000000;
+    border-top: 5px solid gray;
+    color: #FFFFFF;
     height: 1140px;
     width: 100%;
     position: absolute;
-    top: 2340px;
+    top: 2360px;
 }
 #advert
 {
@@ -689,4 +690,36 @@ p
     justify-content: center;
     font-size: 26px;
     
+}
+#fit-heading
+{
+    position: absolute;
+    top: 2380px;
+    left: -500px;
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1;
+}
+#fit-subheading
+{
+    position: absolute;
+    top: 2450px;
+    left: 120px;
+    display: flex;
+    flex-flow: column wrap;
+}
+#row
+{
+    display: grid;
+}
+#disp
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    position: absolute;
+    top: 2540px;
+    left: 60px;
+    gap: 50px;
+    z-index: 1;
 }
